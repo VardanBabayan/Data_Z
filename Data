@@ -8,140 +8,146 @@ class zodiac:
         self.month = month
         self.zodiac_sign = zodiac_sign
         self.explaination = explaination
-    
-    
+
+
     def get_day(self):
         return self.day
 
     def get_month(self):
         return self.month
-    
+
     def check_zodiac_sign(self):
         return self.zodiac_sign
-        
+
     def provide_explaination(self):
         return self.explaination
-    
+
 class Capricorn:
     def __init__(self,sign, zodiac_explaination):
         self.sign = sign
         self.zodiac_explaination = zodiac_explaination
-    
+
     def check_sign(zodiac):
-         if (month == "january")
-            if (day < 20) 
-            astro_sign = "Capricorn"; 
-            else
-            astro_sign = "aquarius";
-           
+         if (month == "january"):
+            if (day < 20):
+                astro_sign = "Capricorn"; 
+            else:
+                astro_sign = "aquarius";
+
 class Pisces:
     def __init__(self,day, month, zodiac_explaination):
         self.sign = sign
         self.zodiac_explaination = zodiac_explaination
- 
+
     def check_sign(zodiac):
-        if(month == "march") 
-            if (day < 21)  
-            astro_sign = "Pisces"; 
-            else
-            astro_sign = "aries"; 
+        if(month == "march"):
+            if (day < 21):
+                astro_sign = "Pisces"; 
+            else:
+                astro_sign = "aries"; 
 
 class Aquarius:
     def __init__(self,sign, zodiac_explaination):
         self.sign = sign
         self.zodiac_explaination = zodiac_explaination
     def check_sign(zodiac):
-        if (month == "february") 
-            if (day < 19) 
-            astro_sign = "Aquarius"; 
-            else
-            astro_sign = "pisces"; 
+        if (month == "february"):
+            if (day < 19):
+                astro_sign = "Aquarius"; 
+            else:
+                astro_sign = "pisces"; 
 class Sagittarius:
     def __init__(self,sign, zodiac_explaination):
         self.sign = sign
         self.zodiac_explaination = zodiac_explaination
     def check_sign(zodiac):
-        if (month == "december")
-              
-            if (day < 22) 
-            astro_sign = "Sagittarius"; 
-            else
-            astro_sign ="capricorn";  
+        if (month == "december"):
+            if (day < 22): 
+                astro_sign = "Sagittarius"; 
+            else:
+                astro_sign ="capricorn";  
 class Scorpio:
     def __init__(self, sign,day, month, zodiac_explaination):
         self.sign = sign
         self.zodiac_explaination = zodiac_explaination
     def check_sign(zodiac):
+        if (month == "july")
+            if (day < 23) 
+                astro_sign = "Cancer"; 
+            else:
+                astro_sign = "leo"; 
 class Libra:
     def __init__(self, sign, day, month, zodiac_explaination):
         self.sign = sign
         self.zodiac_explaination = zodiac_explaination
     def check_sign(zodiac):
-        if (month == "october") 
-            if (day < 23) 
-            astro_sign = "Libra"; 
-            else
-            astro_sign = "scorpio"; 
+        if (month == "october"):
+            if (day < 23):
+                astro_sign = "Libra"; 
+            else:
+                astro_sign = "scorpio"; 
+
+
 class Virgo:
     def __init__(self,sign, zodiac_explaination):
         self.sign = sign
         self.zodiac_explaination = zodiac_explaination
     def check_sign(zodiac):
-        if (month == "september") 
-            if (day < 23) 
-            astro_sign = "Virgo"; 
-            else
-            astro_sign = "libra"; 
+        if (month == "september") :
+            if (day < 23):
+                astro_sign = "Virgo"; 
+            else:
+                astro_sign = "libra"; 
 class Leo:
    def __init__(self,sign,  zodiac_explaination):
         self.sign = sign
         self.zodiac_explaination = zodiac_explaination
    def check_sign(zodiac):
-      if( month == "august")
-            if (day < 23)  
-            astro_sign = "Leo"; 
-            else
-            astro_sign = "virgo";
+      if( month == "august"):
+            if (day < 23):
+                astro_sign = "Leo"; 
+            else:
+                astro_sign = "virgo";
 class Canser:
     def __init__(self, sign, zodiac_explaination):
         self.sign = sign
         self.zodiac_explaination = zodiac_explaination
     def check_sign(zodiac):
-        if (month == "november"){ 
+        if (month == "november"):
             if (day < 22) 
-            astro_sign = "canser"; 
+                astro_sign = "canser"; 
             else
-            astro_sign = "sagittarius";
+                astro_sign = "sagittarius";
 class Gemini:
     def __init__(self,sign, zodiac_explaination):
         self.sign = sign
         self.zodiac_explaination = zodiac_explaination
     def check_sign(zodiac):
-        if( month == "june")
-            if (day < 21) 
-            astro_sign = "Gemini"; 
-            else
-            astro_sign = "scorpio";
+        if( month == "june"):
+            if (day < 21) :
+                astro_sign = "Gemini"; 
+            else:
+                astro_sign = "scorpio";
 class Taurus:
    def __init__(self, sign,  zodiac_explaination):
         self.sign = sign
         self.zodiac_explaination = zodiac_explaination
    def check_sign(zodiac):
-      if (month == "may") 
-            if (day < 21) 
-            astro_sign = "Taurus"; 
-            else
-            astro_sign = "gemini"; 
+      if (month == "may") :
+            if (day < 21) :
+                astro_sign = "Taurus"; 
+            else:
+             astro_sign = "gemini"; 
 class Aries:
   def __init__(self, sign, zodiac_explaination):
         self.sign = sign
         self.zodiac_explaination = zodiac_explaination
     def check_sign(zodiac):
          if (month == "april")
-            if (day < 20) 
-            astro_sign = "Aries"; 
-            else
-            astro_sign = "taurus";  
+            if (day < 20) :
+                astro_sign = "Aries"; 
+            else:
+                 astro_sign = "taurus";  
 
 def main():
  z1 = astro_sign("Capricorn", "The measured master planner of the horoscope family, Capricon energy teaches us the power of structure and long-term goals.")
@@ -157,4 +163,4 @@ z3 = astro_sign("Aquarius", "The mad scientist and humanitarian of the horoscope
  z11 = astro_sign("Taurus", "The persistent provider of the horoscope family, Taurus energy helps us seek security, enjoy earthly pleasures and get the job done.")
  z12 = astro_sign("Aries", "The pioneer and trailblazer of the horoscope wheel, Aries energy helps us initiate, fight for our beliefs and fearlessly put ourselves out there.")
 
- main()          
+ main()       
